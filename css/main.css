@@ -1,0 +1,27 @@
+.container{
+    width: 1250px;
+    margin: auto;
+    outline: solid 1px;
+}
+.quickinfo-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-flex{
+    display: flex;
+}
+.about-flex{
+    display:flex;
+    justify-content: space-between;
+}
+.features-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.features-flex .features-1{
+    width: 33.33%;
+}
