@@ -1,27 +1,200 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
 .container{
-    width: 1250px;
-    margin: auto;
-    outline: solid 1px;
+    max-width: 1175px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .quickinfo-flex{
     display: flex;
     justify-content: space-between;
+    height: 43px;
+    outline: solid 1px;
 }
 .header-flex{
     display: flex;
     justify-content: space-between;
+    height: 75px;
+    outline: solid 1px;
 }
 .banner-flex{
     display: flex;
+    height: 396px;
+    outline: solid 1px;
 }
 .about-flex{
     display:flex;
     justify-content: space-between;
+    height: 560px;
+    outline: solid 1px;
+}
+.about-flex .about-1{
+    width: 50%;
+    outline: solid 1px;
+}
+.icofont-finger-print{
+    font-size: 20px;
+    
+    
+    
+}
+
+.about-1 img{
+    height: 560px;
+    width: 100%;
+}
+.about-1 .honour{
+    font-size: 40px;
+    text-align: center;
+    padding-left: 50px;
+    padding-bottom: 25px;
+}
+.about-1 .axus{
+    font-size: 20px;
+    padding-left: 100px;
+    padding-bottom:25px;
+}
+.logo-finger{
+    font-size:40px;
+    color:#2196f3;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    box-sizing: border-box;
+    height: 60px;
+    width: 60px;
+    background-color: #f1f7fb;
+    margin-left: 30px;
+}
+.logo-giftbox{
+    font-size: 40px;
+    color: #2196f3;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    box-sizing: border-box;
+    height: 60px;
+    width: 60px;
+    background-color: #f1f7fb;
+    margin-left: 30px;
+}
+.about-1 .redme{
+    font-size: 25px;
+    padding: 15px; 
+    padding-left: 100px;
+}
+.about-1 .realme{
+    font-size: 20px;
+    padding-left: 125px;
+    padding-bottom: 15px;
 }
 .features-flex{
     display: flex;
+    background-color:lightcyan;
     flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .features-flex .features-1{
     width: 33.33%;
+    height: 200px;
+    padding: 20px 30px;
+    border: solid 1px #ccc;
+    border-top: 0px;
+    box-sizing: border-box;
+}
+
+.features-1 .oppo{
+    font-size: 25px;
+    padding: 10px;
+}
+.features-1 .cam{
+    font-size: 28px;
+    padding: 10px;
+}
+.features-1 .vivo{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.ourworks-flex{
+    display: flex;
+    flex-wrap: wrap;
+    height: 280px;
+    background-color:lightgray;
+}
+.ourworks-flex .ourworks-1{
+    width: 25%;
+    outline: solid 2px;
+    padding-bottom: 50px;
+}
+.ourworks-1 .oneplus{
+    font-size: 54px;
+    text-align: center;
+    padding-top: 50px;
+}
+.ourworks-1 .apple{
+    text-align: center;
+    padding-top: 10px;
+}
+.services-flex{
+    display: flex;
+    flex-wrap: wrap;
+    height: 680px;
+}
+.services-flex .services-1{
+    width: 33.33%;
+    outline: solid 1px;
+}
+.ourportofolio-flex{
+    display: flex;
+    flex-wrap: wrap;
+    height: 1200px;
+}
+.ourportofolio-flex .ourportofolio-1{
+    width: 33.33%;
+    outline: solid 1px;
+}
+.ourteams-flex{
+    display: flex;
+    flex-wrap:wrap;
+    height: 535px;
+}
+.ourteams-flex .ourteams-1{
+    width: 25%;
+    outline: solid 1px;
+}
+.faq-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.faq-flex .faq-1{
+    height: 840px;
+    outline: solid 1px;
+    width: 50%;
+}
+.contactus-flex{
+    display: flex;
+    height: 796px;
+    outline: solid 1px;
+}
+.info-flex{
+    display:flex;
+    height: 460px;
+    outline: solid 1px;
+}
+.legel-flex{
+    display: flex;
+    height: 110px;
+    outline: solid 1px; 
 }
