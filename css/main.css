@@ -40,11 +40,7 @@
 }
 .icofont-finger-print{
     font-size: 20px;
-    
-    
-    
 }
-
 .about-1 img{
     height: 560px;
     width: 100%;
@@ -100,7 +96,6 @@
 }
 .features-flex{
     display: flex;
-    background-color:lightcyan;
     flex-wrap: wrap;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -113,7 +108,51 @@
     border-top: 0px;
     box-sizing: border-box;
 }
-
+.features-1:nth-child(1){
+    
+}
+.logomessage{
+    font-size:40px;
+    color:#2196f3;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    box-sizing: border-box;
+    height: 60px;
+    width: 60px;
+    background-color: #f1f7fb;
+    margin-left: 30px;
+}
+.logo-flot-chat{
+    font-size:40px;
+    color:#2196f3;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    box-sizing: border-box;
+    height: 60px;
+    width: 60px;
+    background-color: #f1f7fb;
+    margin-left: 30px;
+}
+.glope{
+    font-size:40px;
+    color:#2196f3;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    box-sizing: border-box;
+    height: 60px;
+    width: 60px;
+    background-color: #f1f7fb;
+    margin-left: 30px;
+}
 .features-1 .oppo{
     font-size: 25px;
     padding: 10px;
@@ -127,43 +166,75 @@
     padding: 10px;
 }
 
-.ourworks-flex{
-    display: flex;
-    flex-wrap: wrap;
-    height: 280px;
-    background-color:lightgray;
+.ourworks{
+    background-color:#f5f5f5;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-.ourworks-flex .ourworks-1{
+.ourworks-flex{
+    display: flex; 
+}
+.ourworks-flex .ourworks-1 {
     width: 25%;
-    outline: solid 2px;
-    padding-bottom: 50px;
+    margin-right: 20px;
+    background-color:#fff;
+    height: 150px;
+    text-align: center;
+    padding: 40px;
+    box-shadow: 2px 2px 6px #222;
+    box-sizing: border-box;
 }
 .ourworks-1 .oneplus{
-    font-size: 54px;
-    text-align: center;
-    padding-top: 50px;
+    font-size: 40px;
+    color: blue;
 }
-.ourworks-1 .apple{
-    text-align: center;
-    padding-top: 10px;
+.services{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.service-head{
+    display: flex;
+    justify-content: center;
+    background-color: #ccc;
+    padding-top: 20px;
+    font-size: 40px;
 }
 .services-flex{
     display: flex;
     flex-wrap: wrap;
-    height: 680px;
+    background-color: #ccc;
 }
 .services-flex .services-1{
     width: 33.33%;
-    outline: solid 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    padding-bottom: 30px;
+}
+.services-1 .poco{
+    padding-top: 10px;
+    padding-left: 30px;
+    
+}
+.services-1 .nokia{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
 }
 .ourportofolio-flex{
     display: flex;
     flex-wrap: wrap;
     height: 1200px;
+    background-color: #ccc;
 }
 .ourportofolio-flex .ourportofolio-1{
     width: 33.33%;
     outline: solid 1px;
+    height: 350px;
+    background-color: #f1f7fb;
+}
+.image-2 img{
+    width: 400px;
 }
 .ourteams-flex{
     display: flex;
