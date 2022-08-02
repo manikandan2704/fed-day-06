@@ -304,15 +304,19 @@
     line-height: 30px;
     margin: 0 5px;
 }
-.ourteams-flex{
+.team-list{
     display: flex;
-    flex-wrap:wrap;
-    height: 535px;
+    flex-wrap: wrap;
 }
-.ourteams-flex .ourteams-1{
+.teambox{
     width: 25%;
-    outline: solid 1px;
 }
+.teambox img{
+    width: 100%;
+}
+
+
+
 .faq-flex{
     display: flex;
     justify-content: space-between;
