@@ -304,18 +304,65 @@
     line-height: 30px;
     margin: 0 5px;
 }
-.team-list{
+.our-team-list{
+    display: flex;
+    flex-wrap: wrap; 
+    padding : 70px;
+}
+.our-team-box{
+    width: 25%;
+    padding: 0 15px;
     display: flex;
     flex-wrap: wrap;
 }
-.teambox{
-    width: 25%;
+.our-team-info{
+    position: relative;
 }
-.teambox img{
+.our-team-info .our-team-pic{
+    overflow: hidden;
+    border-radius: 5px;
+}
+.our-team-info .our-team-pic img{
     width: 100%;
+    display: block;
 }
+.our-team-content{
+    position: absolute;
+    bottom: -50px;
+    left: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.41);
+    padding: 10px 20px;
+    text-align: center;
+    width: 80%;
+}
+.our-team-content h5{
+    color: #fff;
+    font-size: 30px;
+}
+.our-team-content .hrline{
+    width: 80px;
+    height: 1px;
+    background-color: #fff;
+    margin: 6px auto;
+}
+.our-team-content p{
+    color: #fff;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.icons a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.icons a:hover{
+    color: blue;
 
-
+}
+.icons a.iconfont-instagram{
+    margin-right: 3px;
+}
 
 .faq-flex{
     display: flex;
