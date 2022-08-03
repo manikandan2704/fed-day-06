@@ -317,8 +317,6 @@
     font-size: 20px;
     color: #607d8b;
 }
-
-
 .our-team-list{
     display: flex;
     flex-wrap: wrap; 
@@ -326,10 +324,11 @@
     background-color: #fff;
 }
 .our-team-box{
-    width: 25%;
+    width: 23%;
     display: flex;
     flex-wrap: wrap;
-
+    padding-left: 14px;
+    padding-bottom: 40px;
 }
 .our-team-info{
     position: relative;
@@ -338,19 +337,24 @@
     overflow: hidden;
     border-radius: 5px;
 }
+.our-team-box:hover img{
+    transform: scale(1.1);
+    transition: all 0.5s ;
+}
 .our-team-info .our-team-pic img{
     width: 100%;
     display: block;
+    transition: 0.5s;
 }
 .our-team-content{
     position: absolute;
-    bottom: -50px;
-    left: 10px;
-    right: 10px;
+    bottom: -40px;
+    left: 20px;
+    right: 20px;
     background-color: rgba(0, 0, 0, 0.41);
-    padding: 10px 20px;
+    padding: 15px 0px;
     text-align: center;
-    width: 80%;
+    border-radius: 4px;
 }
 .our-team-content h5{
     color: #fff;
