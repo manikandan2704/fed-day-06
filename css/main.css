@@ -257,7 +257,6 @@
 .portfoliocont:hover img{
     transform: scale(1.1);
 }
-
 .portfoliotext{
    position: absolute;
    top: 0;
@@ -311,8 +310,7 @@
     font-size: 40px;
     color: #5c768d;
     padding-left: 480px;
-    padding-top: 100px;
-    
+    padding-top: 100px;   
 }
 .our-team-head p{
     padding-left: 180px;
@@ -436,12 +434,60 @@
 
 .faq-flex .faq-1{
     height: 700px;
-    width: 50%;
+    width: 45%;
 }
 .contactus-flex{
     display: flex;
-    height: 796px;
+    height: 200px;
     outline: solid 1px;
+}
+.table-1{
+    width: 50%;
+    padding-left: 30px;
+}
+.table-1 a{
+    text-decoration: none;
+}
+.table-1 h3{
+    font-size: 22px;
+    color:#666666;
+}
+.table-1 p{
+    font-size: 17px;
+    color: #767675;
+    padding-top: 20px;
+}
+.table-2{
+    width: 20%;
+    padding-left: 50px;
+}
+.table-2 a{
+    text-decoration: none;
+}
+.table-2 h3{
+    font-size: 22px;
+    color: #787878;
+}
+.table-2 p{
+    font-size: 17px;
+    color: #767675;
+    padding-top: 20px;
+}
+.table-3{
+    width: 20%;
+    padding-left: 50px;
+}
+.table-3 a{
+    text-decoration: none;  
+}
+.table-3 h3{
+    font-size: 22px;
+    color: #787878;
+}
+.table-3 p{
+    font-size: 17px;
+    color: #767675;
+    padding-top: 20px;
 }
 .info-flex{
     display:flex;
