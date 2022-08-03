@@ -304,16 +304,32 @@
     line-height: 30px;
     margin: 0 5px;
 }
+.our-team-head h2{
+    font-size: 40px;
+    color: #5c768d;
+    padding-left: 480px;
+    padding-top: 100px;
+    
+}
+.our-team-head p{
+    padding-left: 180px;
+    padding-top: 10px;
+    font-size: 20px;
+    color: #607d8b;
+}
+
+
 .our-team-list{
     display: flex;
     flex-wrap: wrap; 
-    padding : 70px;
+    padding : 50px;
+    background-color: #fff;
 }
 .our-team-box{
     width: 25%;
-    padding: 0 15px;
     display: flex;
     flex-wrap: wrap;
+
 }
 .our-team-info{
     position: relative;
@@ -338,7 +354,7 @@
 }
 .our-team-content h5{
     color: #fff;
-    font-size: 30px;
+    font-size: 25px;
 }
 .our-team-content .hrline{
     width: 80px;
@@ -351,6 +367,7 @@
     font-size: 15px;
     padding-bottom: 10px;
 }
+
 .icons a{
     text-decoration: none;
     color: #fff;
