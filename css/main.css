@@ -32,14 +32,12 @@
     display:flex;
     justify-content: space-between;
     height: 560px;
-    outline: solid 1px;
 }
 .about-flex .about-1{
     width: 50%;
-    outline: solid 1px;
 }
 .icofont-finger-print{
-    font-size: 20px;
+    font-size: 30px;
 }
 .about-1 img{
     height: 560px;
@@ -56,9 +54,12 @@
     padding-left: 100px;
     padding-bottom:25px;
 }
+.finger-print:hover{
+    color: #468DCB;
+}
 .logo-finger{
     font-size:40px;
-    color:#2196f3;
+    color:#f1f7fb;
     float: left;
     display: flex;
     align-items: center;
@@ -67,12 +68,12 @@
     box-sizing: border-box;
     height: 60px;
     width: 60px;
-    background-color: #f1f7fb;
+    background-color: #468DCB;
     margin-left: 30px;
 }
 .logo-giftbox{
     font-size: 40px;
-    color: #2196f3;
+    color: #f1f7fb;
     float: left;
     display: flex;
     align-items: center;
@@ -81,7 +82,7 @@
     box-sizing: border-box;
     height: 60px;
     width: 60px;
-    background-color: #f1f7fb;
+    background-color: #468DCB;
     margin-left: 30px;
 }
 .about-1 .redme{
@@ -235,7 +236,6 @@
 .portfolio-list  {
        display: flex;
        flex-wrap: wrap;
-    
 }
 .portfolio-list .portfoliobox{
     width: 33.33%;
@@ -270,11 +270,14 @@
     align-items: center;
     opacity: 0;
     transition: all 0.5s ease;
-    transform: translateY(-20px);
 }
 .portfoliobox:hover .portfoliotext{
     opacity: 1;
+}
+.portfoliobox:hover .portfolioinfo{
     transform: translateY(0px);
+    transition: all 0.5s ease;
+    opacity: 1;
 }
 .portfolioinfo h5{
     color: #fff;
@@ -384,14 +387,55 @@
 .icons a.iconfont-instagram{
     margin-right: 3px;
 }
-
+.faq-head{
+    font-size: 40px;
+    padding-left: 350px;
+    color: #607d8b;
+    padding-bottom: 30px;
+}
+.faq-info{
+    font-size: 25px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #607d8b;
+}
+.faq-info-2{
+    font-size: 18px;
+    padding-bottom: 60px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #5c768d;
+}
+.faq-info-3{
+    padding-top: 10px;
+    padding-bottom: 60px;
+    font-size: 18px;
+    color: #5c768d;
+    margin-top: -40px;
+}
+.faq-info-4{
+    font-size: 25px;
+    color:#607d8b
+}
+.faq-info-5{
+    padding-top: 30px;
+    font-size: 18px;
+    color: #5c768d
+}
+.faq-info-1{
+    padding-bottom: 40px;
+    font-size: 23px;
+    color: #607d8b;
+}
 .faq-flex{
     display: flex;
     justify-content: space-between;
+    background-color: #f5f5f5;
 }
+
 .faq-flex .faq-1{
-    height: 840px;
-    outline: solid 1px;
+    height: 700px;
     width: 50%;
 }
 .contactus-flex{
