@@ -431,63 +431,101 @@
     justify-content: space-between;
     background-color: #f5f5f5;
 }
-
 .faq-flex .faq-1{
     height: 700px;
     width: 45%;
 }
+.contact-head{
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 140px;
+    color: #5C768D;
+}
 .contactus-flex{
     display: flex;
     height: 200px;
-    outline: solid 1px;
 }
 .table-1{
     width: 50%;
-    padding-left: 30px;
+    text-align: center;
+    padding-top: 30px;
+    margin-right: 19px;
+    background-color:#f5f9fc;
+    box-shadow: 0 0 10px #222;
+    margin-bottom: 19px;
 }
 .table-1 a{
     text-decoration: none;
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    color: #428BCA;
+    border-radius: 100%;
+    border: 2px dotted #9eccf4;
 }
 .table-1 h3{
-    font-size: 22px;
+    font-size: 27px;
+    margin-left: 30px;
     color:#666666;
+    padding-top: 20px;
 }
 .table-1 p{
     font-size: 17px;
     color: #767675;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 .table-2{
-    width: 20%;
-    padding-left: 50px;
+    width: 25%;
+    padding-top: 30px;
+    text-align: center;
+   box-shadow: 0 0 10px #222;
+   margin-right: 19px;
+   margin-bottom: 19px;
 }
 .table-2 a{
     text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 100%;
+    border: 2px dotted #9eccf4;
+    color: #428BCA;
 }
 .table-2 h3{
     font-size: 22px;
     color: #787878;
+    padding-top: 10px;
+    text-align: center;
 }
 .table-2 p{
     font-size: 17px;
     color: #767675;
     padding-top: 20px;
+    text-align: center;
 }
 .table-3{
-    width: 20%;
-    padding-left: 50px;
+    width: 25%;
+    text-align: center;
+    padding-top: 30px;
+    box-shadow: 0 0 10px #222;
+    margin-bottom: 19px;
 }
 .table-3 a{
-    text-decoration: none;  
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center; 
+    border-radius: 100%;
+    border: 2px dotted #9eccf4;
+    color: #428BCA;
 }
 .table-3 h3{
     font-size: 22px;
     color: #787878;
+    padding-top: 10px;
 }
 .table-3 p{
     font-size: 17px;
     color: #767675;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 .info-flex{
     display:flex;
@@ -497,5 +535,5 @@
 .legel-flex{
     display: flex;
     height: 110px;
-    outline: solid 1px; 
+   
 }
