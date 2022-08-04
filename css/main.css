@@ -586,21 +586,68 @@
 .legel-flex{
     display: flex;
     flex-wrap: wrap;
-    height: 300px;  
+    height: auto ;
+    background-color:#607d8b;  
 }
 .mamba{
-    width: 25%;
+    flex: 1 0 0;
     outline: solid 1px;
 }
 .mamba-1{
-    width: 25%;
-    outline: solid 1px;
+    width: 40%;
 }
-.mamba-2{
-    width: 25%;
-    outline: solid 1px;
+.mamba-head{
+    font-size: 30px;
+    padding-left: 40px;
+    padding-top: 10px;
+    color: #f1f7fb;
+    padding-top: 60px;
 }
-.mamba-3{
-    width: 25%;
-    outline: solid 1px;
+.mamba-para{
+    font-size: 17px;
+    padding-left: 40px;
+    padding-top: 20px;
+    color: #f1f7fb;
+}
+.mamba-head-2{
+    font-size: 17px;
+    padding-left: 40px;
+    padding-top: 20px;
+    color: #f1f7fb;
+}
+.social-media{
+    padding-top: 20px;
+    text-decoration: none;
+    padding-left: 40px;
+    font-size: 20px;
+    padding-bottom: 30px;
+    color: #f1f7fb;
+}
+.useful-head{
+    font-size: 21px;
+    padding-top: 60px;
+    padding-left: 42px;
+    color: #f1f7fb;
+}
+.useful-para{
+    padding-left: 50px;
+    padding-top: 30px;
+    color: #f1f7fb;
+}
+.useful-home{
+    padding-top: 8px
+}
+.services-head{
+    font-size: 21px;
+    padding-top: 60px;
+    padding-left: 42px;
+    color: #f1f7fb;
+}
+.services-para{
+    padding-left: 50px;
+    padding-top: 30px;
+    color: #f1f7fb;
+}
+.services-home{
+    padding-top: 8px;
 }
