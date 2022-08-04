@@ -446,7 +446,7 @@
     height: 200px;
 }
 .table-1{
-    width: 50%;
+    width: 45%;
     text-align: center;
     padding-top: 30px;
     margin-right: 19px;
@@ -491,15 +491,15 @@
     color: #428BCA;
 }
 .table-2 h3{
-    font-size: 22px;
+    font-size: 27px;
     color: #787878;
-    padding-top: 10px;
+    padding-top: 20px;
     text-align: center;
 }
 .table-2 p{
     font-size: 17px;
     color: #767675;
-    padding-top: 20px;
+    padding-top: 10px;
     text-align: center;
 }
 .table-3{
@@ -518,22 +518,89 @@
     color: #428BCA;
 }
 .table-3 h3{
-    font-size: 22px;
+    font-size: 27px;
     color: #787878;
-    padding-top: 10px;
+    padding-top: 20px;
+    text-align: center;
 }
 .table-3 p{
     font-size: 17px;
     color: #767675;
     padding-top: 10px;
+    text-align: center;
 }
 .info-flex{
-    display:flex;
-    height: 460px;
-    outline: solid 1px;
+    height: auto;
+    background-color: #fff;
+}
+.userforms{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-6{
+    width: 48%;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    color: #9EA4A9;
+}
+.col-61{
+    width: 48%;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    color: #9EA4A9;
+}
+.col-11{
+    width: 100%;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color: #9EA4A9;
+    margin-left: -13px;
+}
+.col-12{
+    width: 100%;
+    margin-left: 8px;
+    padding-bottom: 30px;
+}
+.form-btn{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    height: 40px;
+    font-size: 10px;
+    padding-bottom: 100px;
+}
+.send-message{
+    background-color: #428BCA;
+    color: #f1f7fb;
+    border: none;
+}
+.input{
+    width: 100%;
+    line-height: 3;
 }
 .legel-flex{
     display: flex;
-    height: 110px;
-   
+    flex-wrap: wrap;
+    height: 300px;  
+}
+.mamba{
+    width: 25%;
+    outline: solid 1px;
+}
+.mamba-1{
+    width: 25%;
+    outline: solid 1px;
+}
+.mamba-2{
+    width: 25%;
+    outline: solid 1px;
+}
+.mamba-3{
+    width: 25%;
+    outline: solid 1px;
 }
